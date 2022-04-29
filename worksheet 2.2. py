@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+# Pass the x and y cordinates of the bars to the
+# function. The label argument gives a label to the data.
+plt.bar([1,3,5,7,9],[5,2,7,8,2], label="Data 1")
+plt.legend()
+
+# The following commands add labels to our figure.
+plt.xlabel('X values')
+plt.ylabel('Height')
+plt.title('Vertical Bar chart')
+
+plt.show()
